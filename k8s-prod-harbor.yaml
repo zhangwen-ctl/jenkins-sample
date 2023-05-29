@@ -14,7 +14,7 @@ spec:
         app: jenkins-demo
     spec:
       containers:
-      - image: rancher/jenkins-demo/jenkins-demo:<BUILD_TAG>
+      - image: 10.180.5.187/jenkins-demo/jenkins-demo:<BUILD_TAG>
         imagePullPolicy: IfNotPresent
         name: jenkins-demo
         env:
